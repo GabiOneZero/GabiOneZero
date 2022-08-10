@@ -11,8 +11,20 @@ public class AboutMe extends Person implements Developer{
     Code languages[] = {Java, Javascript, HTML, CSS, PHP, SQL}; 
     Code tools[] = {TypeScript, Tailwind, Bootstrap, React, Laravel, jQuery, AWS, figma, ionic};
     
+    public String getMood(){
+      return "Keeping learning";
+    }
     
+    public void sayHi(){
+      System.out.println("Always happy to meet people with shared interests."); 
+      System.out.println("Contact me if you want to collaborate or just to chat.");
+    }
+        
 }
+
+  AboutMe gabi = new AboutMe();
+  gabi.sayHi();
+  
 ```
 ![](https://komarev.com/ghpvc/?username=your-github-username&color=013747)
 
