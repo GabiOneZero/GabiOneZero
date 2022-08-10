@@ -6,22 +6,12 @@ package com.github.profile.gabionezero;
 
 public class AboutMe extends Person implements Developer{
 
-    private String name = "Gabriel";
+    String name = "Gabriel";
+    String role = "Web Developer";
+    Code languages[] = {Java, Javascript, HTML, CSS, PHP, SQL}; 
+    Code tools[] = {TypeScript, Tailwind, Bootstrap, React, Laravel, jQuery, AWS, figma, ionic};
     
-
-}
-
-const GABI = {
-  
-  code: [Javascript, Typescript, HTML, CSS, Ruby, Python, Java],
-  tools: [React, Redux, Node, Storybook, Styled-Components, Jest, Docker],
-  architecture: ["microservices", "event-driven", "design system pattern"],
-  techCommunities: {
-                        coorganizer: "AfroPython",
-                        speaker: "Latinity",
-                        mentor: "EducaTRANSforma"
-                      },
- challenge: "I am doing the #100DaysOfCode challenge focused on react and typescript"
+    
 }
 ```
 ![](https://komarev.com/ghpvc/?username=your-github-username&color=013747)
